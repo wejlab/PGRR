@@ -4,13 +4,17 @@ The **Pangenome Gene Reference Resource (PGRR)** is a comprehensive pangenome of
 
 ## Description of Files
 
-pangenome.fasta.gz: contains the biological sequences of all genes and their highly similar paralogs collected from 50 strains of _M. tuberculosis_ across all seven lineages
+pangenome.fasta.gz:
+contains the biological sequences of all genes and their highly similar paralogs collected from 50 strains of _M. tuberculosis_ across all seven lineages
 
-pangenome_BCCM_unique_only.fasta.gz: subsetted version of pangenome.fasta.gz that contains only sequences that are unique to the BCCM strains
+pangenome_BCCM_unique_only.fasta.gz:
+subsetted version of pangenome.fasta.gz that contains only sequences that are unique to the BCCM strains
 
-pangenome_H37Rv_only.fasta.gz: subsetted version of pangenome.fasta.gz that contains only sequences belonging to the H37Rv reference genome
+pangenome_H37Rv_only.fasta.gz:
+subsetted version of pangenome.fasta.gz that contains only sequences belonging to the H37Rv reference genome
 
-pangenome_no_BCCM.fasta.gz: subsetted version of pangenome.fasta.gz that includes all sequences EXCEPT for those found in the BCCM strains
+pangenome_no_BCCM.fasta.gz:
+subsetted version of pangenome.fasta.gz that includes all sequences EXCEPT for those found in the BCCM strains
 
 ## Example Workflow
 

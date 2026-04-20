@@ -8,7 +8,7 @@ pangenome.fasta.gz:
 contains the biological sequences of all genes and their highly similar paralogs collected from 50 strains of _M. tuberculosis_ across all seven lineages
 
 pangenome_BCCM_unique_only.fasta.gz:
-subsetted version of pangenome.fasta.gz that contains only sequences that are unique to the BCCM strains
+subsetted version of pangenome.fasta.gz that contains only genes present in BCCM but not in H37Rv
 
 pangenome_H37Rv_only.fasta.gz:
 subsetted version of pangenome.fasta.gz that contains only sequences belonging to the H37Rv reference genome

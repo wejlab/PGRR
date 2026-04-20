@@ -22,7 +22,7 @@ gunzip pangenome.fasta.gz
 bowtie2-build -f pangenome.fasta pgrr_reference
 
 #Align paired sample to PGRR
-bowtie2 --no-unal -x pgrr_reference -1 sample_R1.fastq.gz -2 sample_R2.fastq.gz --very-sensitive-local -S output.sam
+bowtie2 --no-unal --very-sensitive-local -x pgrr_reference -1 sample_R1.fastq.gz -2 sample_R2.fastq.gz -S output.sam
 
 # convert SAM file to BAM format and sort it for downstream analysis
 samtools view -bS -u output.sam | samtools sort -n -o output.bam
